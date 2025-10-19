@@ -1,0 +1,5 @@
+import * as React from "react";
+import Svg, { Path } from "react-native-svg";
+import type { SvgProps } from "react-native-svg";
+const SvgTablerCoins = (props: SvgProps) => <Svg width={89} height={89} fill="none" {...props}><Path stroke="#E5426B" strokeLinecap="round" strokeLinejoin="round" strokeWidth={6} d="M33.375 51.917c0 6.145 9.96 11.125 22.25 11.125s22.25-4.98 22.25-11.125-9.96-11.125-22.25-11.125-22.25 4.98-22.25 11.125" /><Path stroke="#E5426B" strokeLinecap="round" strokeLinejoin="round" strokeWidth={6} d="M33.375 51.917V66.75c0 6.141 9.96 11.125 22.25 11.125s22.25-4.984 22.25-11.125V51.917M11.125 22.25c0 3.975 4.242 7.647 11.125 9.634s15.367 1.988 22.25 0 11.125-5.659 11.125-9.634-4.242-7.647-11.125-9.634-15.367-1.988-22.25 0-11.125 5.659-11.125 9.634" /><Path stroke="#E5426B" strokeLinecap="round" strokeLinejoin="round" strokeWidth={6} d="M11.125 22.25v37.083c0 3.293 2.863 5.377 7.417 7.417" /><Path stroke="#E5426B" strokeLinecap="round" strokeLinejoin="round" strokeWidth={6} d="M11.125 40.792c0 3.293 2.863 5.377 7.417 7.417" /></Svg>;
+export default SvgTablerCoins;
